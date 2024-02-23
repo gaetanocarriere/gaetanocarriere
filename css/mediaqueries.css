@@ -1,0 +1,224 @@
+@media screen and (max-width: 1374px) {
+    .about-content h2 {
+        font-size: 38px;
+    }
+    .about-content p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1136px) {
+    .about-content h2 {
+        font-size: 34px;
+    }
+    .about-content p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .videoContent video {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .contact-container {
+        margin: 0 auto;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .about-container {
+        padding: 0;
+    }
+    .about {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .about-content p {
+        padding: 0;
+        font-size: 16px;
+    }
+    .missionTitle h1 {
+        text-align: left;
+    }
+    .mission-content p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    .contact-container {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 757px) {
+    .logo a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 618px) {
+    .videoContent video {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .logo a {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .logo {
+        margin-left: 20px;
+    }
+    .home .content {
+        margin-left: 40px;
+    }
+    .home .content h1 {
+        font-size: 2.3em;
+    }
+    .servizi, .contatti, .info, .developer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chisonoTitle h1, .missionTitle h1, .serviziTitle h1, .videoTitle h1, .testimonianzeTitle h1, .ambulatoriTitle h1, .ultimiAggiornamentiTitle h1 {
+        font-size: 3.2em;
+        text-align: center;
+    }
+    .missionTitle h1 {
+        text-align: left;
+    }
+    .serviziTitle p, .videoTitle p, .testimonianzeTitle p {
+        font-size: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .sendEmailSection {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*@media screen and (max-width: 436px) {
+    #toggle {
+        margin-top: 10px;
+    }
+}*/
+
+@media screen and (max-width: 430px) {
+    .chisonoTitle h1, .missionTitle h1, .serviziTitle h1, .videoTitle h1, .testimonianzeTitle h1, .ambulatoriTitle h1, .ultimiAggiornamentiTitle h1 {
+        font-size: 2.3em;
+    }
+    .servizi, .contatti {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home .content h2 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 402px) {
+    .home .content h1 {
+        font-size: 1.9em;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .row {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/*@media screen and (max-width: 324px) {
+    .chisonoTitle h1, .missionTitle h1, .serviziTitle h1, .videoTitle h1, .testimonianzeTitle h1, .ambulatoriTitle h1 {
+        font-size: 50px;
+    }
+    .serviziTitle p, .videoTitle p, .testimonianzeTitle p {
+        font-size: 14px;
+    }
+}*/
+
+@media screen and (max-width: 1219px) {
+    .footer-row {
+        padding-left: 30px;
+    }
+    .footer-col {
+        width: 25%;
+        padding: 0 10px;
+    }
+    .footer-col:nth-child(1),
+    .footer-col:nth-child(3) {
+        width: fit-content;
+    }
+    .developer {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-col:nth-child(2) {
+        width: 100%;
+        margin-right: 0;
+    }
+    .developer {
+        padding-left: 0;
+    }
+    .ultimiAggiornamentiTitle h1 {
+        font-size: 2.3em;
+    }
+    .ultimiAggiornamentiContent p {
+        font-size: 1.3em;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer-row {
+        padding-left: 15px;
+    }
+    .footer-col {
+        margin-bottom: 20px;
+    }
+    .developer {
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+}
